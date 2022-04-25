@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+}
+header{
+    width: 100vw;
+    height: 80px;
+    background-color: #ffffff;
+    box-shadow: 0 -4px 6px 0 #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+footer{
+    width: 100vw;
+    height: 80px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 8px 0 #000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+footer p{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21.09px;
+
+}
